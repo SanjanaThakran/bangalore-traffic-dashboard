@@ -33,7 +33,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Configuration
-TOMTOM_API_KEY = "bZzH6OoOH5IciZ0rYXQ2QElpoWVzTseA"
+TOMTOM_API_KEY = TOMTOM_API_KEY = st.secrets["TOMTOM_API_KEY"]
 BANGALORE_BBOX = "77.48,12.82,77.75,13.12"
 BANGALORE_CENTER = [12.9716, 77.5946]
 
